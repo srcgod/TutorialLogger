@@ -16,7 +16,6 @@ public class KeyHandler {
         if(Keyboard.isKeyDown(Keyboard.getEventKey()) && Keyboard.getEventKey() != Keyboard.KEY_NONE)
             Client.keyPress(Keyboard.getEventKey());
         if (Keyboard.getEventKey() == Keyboard.KEY_RSHIFT) {
-            Minecraft.getMinecraft().displayGuiScreen(Hui.instance.clickGui);
         }
     }
 }
